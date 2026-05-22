@@ -1,7 +1,19 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;600&display=swap');
+
+/* ===== Alt (editorial emerald + gold) palette ===== */
+@theme inline {
+  --color-alt-bg: #0e1a14;
+  --color-alt-fg: #f4ede0;
+  --color-alt-muted: #a89f8c;
+  --color-alt-gold: #c9a14a;
+  --color-alt-line: #2a3a30;
+  --color-alt-card: #15241c;
+  --font-alt-serif: 'Fraunces', Georgia, serif;
+  --font-alt-sans: 'DM Sans', system-ui, sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
