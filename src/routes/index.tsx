@@ -118,6 +118,12 @@ function Index() {
             >
               Join Us
             </a>
+            <a
+              href="/alt"
+              className="hidden md:inline text-xs text-muted-foreground hover:text-primary underline underline-offset-4"
+            >
+              View alt design
+            </a>
           </div>
         </nav>
       </header>
